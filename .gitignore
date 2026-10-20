@@ -1,0 +1,15 @@
+.DS_Store
+._*
+node_modules/
+.env
+.env.*
+!.env.example
+*.log
+coverage/
+backups/
+exports/
+data/
+单证工作台-备份-*.json
+*-单据.zip
+*.pdf
+*.csv
