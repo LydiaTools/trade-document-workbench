@@ -48,10 +48,10 @@ Shortages, excess quantities, overlapping carton ranges and inconsistent physica
 
 Free-form text is not translated. PDFs contain rasterized document content. The current version does not provide cloud collaboration, OCR, customs declarations or 3D container loading.
 
-## Verified for this upload
+## Release verification
 
-On 20 October 2026, all **18 existing checks passed**: ten core calculation checks and eight packing checks. Rebuilding the standalone HTML produced the same bytes as the supplied v2 file.
+On 21 October 2026, all **18 checks passed**. Desktop Chrome and Safari were used to verify document downloads, packing reconciliation, shortage blocking, backup/restore, product import and customer records. All five sample document types, an actual mixed-carton packing list and a bilingual contract were rendered and visually inspected.
 
-These checks cover calculations and building. File double-click behavior, browser downloads, file-picker restore and the complete human workflow were not revalidated during this upload.
+The public page uses the Lydia logo and favicon. Backup/help controls are available in a 390 × 844 responsive view. Physical phones and embedded social-app browsers have not been tested. See the [detailed release checks](QA.md).
 
 Bundled dependency licenses are retained under [`src/vendor`](../src/vendor); see [third-party notices](../THIRD_PARTY_NOTICES.md).

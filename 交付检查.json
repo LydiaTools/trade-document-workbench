@@ -5,7 +5,7 @@
   "rebuild_matches_delivered_standalone": false,
   "sha256": {
     "package.json": "9e8190efb1b32d05de0de7a7724aec478792d07babf1870395cb49faed59a520",
-    "README.md": "b1c0b73fc0c44f3281ee4e3b00a37b318302d08d600dc529f3f01965495db7e6",
+    "README.md": "0c639e0e8e535ad492c3444d4382d8c2789d9b91640c418d70a1b0524d8c572a",
     "dist/单证工作台.html": "b73d32f228cb1cfb4e75ed83e7bc38cfac8f560cc8946bfc78ff028cf93da768",
     "scripts/build.cjs": "bebaab8c0eda35669e743eac0b407918118ca627ee5f242e78785f670bd1f803",
     "src/app.js": "4454015d68811e8a767cf6e26e64ee23a104503cf786189bb6995b63ebc61697",
@@ -24,13 +24,14 @@
     "src/vendor/LICENSE-jspdf.txt": "dc388ec35ff463288cdde3588a36fd4ed12a45deff053243b37309acc9ef583b",
     ".gitignore": "d355f501733a6d643516647dcd71410ddf5bdb26c88b7ae2889e93bb18e131c8",
     "docs/DEVELOPMENT.md": "247fb941b40cf40b7bc6379b68c0766df4305f381f645d1ccaf27d9c648fb105",
-    "docs/README.en.md": "dbdcce709f1b050bffd9c0be12a821fa11219f15133989215547703066fe7256",
+    "docs/README.en.md": "f2a87d2df3b4215df8d11d420116176c94cbcc13d76ad4fb1d0d0a168c146044",
     "THIRD_PARTY_NOTICES.md": "ec93fe699742e8fbfaa6c4bb15b5920cf603f7445830b8dcc35c443cb9ff1dae",
-    "src/assets/lydia-logo.png": "9fef556c719a441133a4aa460a2b29ff88c92ddfcfd58ecbb2588e9e1c791a98"
+    "src/assets/lydia-logo.png": "9fef556c719a441133a4aa460a2b29ff88c92ddfcfd58ecbb2588e9e1c791a98",
+    "docs/QA.md": "4aafdd4a7342c60b6129eaa94697fa8b82915125135767e125eaf69a7259da6a"
   },
   "verified_on": "2026-10-21",
   "runtime": "Node.js v22.23.0",
-  "verification_scope": "18 Node.js checks pass. Chrome live five-PDF ZIP exported and rendered; Safari offline page, backup download, order edits and reload persistence checked. Further browser workflows are being validated.",
+  "verification_scope": "18 Node.js checks; desktop Chrome full five-PDF ZIP; Safari single PDFs, synthetic mixed-carton paste import, shortage blocking, backup/restore, product CSV, customer library, history visibility, offline reload persistence, and 390x844 responsive layout. Physical mobile and embedded browsers not tested.",
   "changes": [
     "Lydia brand logo and favicon embedded in standalone HTML",
     "Backup and help controls available in narrow layouts",
