@@ -1,6 +1,6 @@
 {
   "name": "trade-document-workbench",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "private": true,
   "description": "本地外贸单证与实际装箱核对工具",
   "scripts": {

@@ -1,6 +1,7 @@
 const fs=require('node:fs'),path=require('node:path');
 const root=path.resolve(__dirname,'../src');
 let html=fs.readFileSync(path.join(root,'index.html'),'utf8');
+html=html.replaceAll('assets/lydia-logo.png','data:image/png;base64,'+fs.readFileSync(path.join(root,'assets/lydia-logo.png')).toString('base64'));
 html=html.replace("script-src 'self';", "script-src 'self' 'unsafe-inline';");
 html=html.replace('<link rel="stylesheet" href="styles.css">','<style>'+fs.readFileSync(path.join(root,'styles.css'),'utf8')+'</style>');
 html=html.replace(/<script src="([^"]+)"><\/script>/g,(_,f)=>'<script>'+fs.readFileSync(path.join(root,f),'utf8').replace(/<\/script/gi,'<\\/script')+'</script>');

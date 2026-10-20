@@ -1,12 +1,14 @@
 # Trade Document Workbench
 
+[Open the workbench](https://lydiatools.github.io/trade-document-workbench/) · [Download the offline version](https://github.com/LydiaTools/trade-document-workbench/releases/latest)
+
 **Enter the order once. Spend less time updating the same details across five documents.**
 
 A customer changes the quantity. You update the quote, proforma invoice, contract and commercial invoice, then check whether the factory's packing sheet still matches.
 
 Trade Document Workbench keeps that work in one local browser workspace. Reuse one order across five document types, keep actual packing records separate, and check quantities before exporting.
 
-**v2.0.0 · Runs locally · Chinese interface · English, Chinese and bilingual documents**
+**v2.0.1 · Runs locally · Chinese interface · English, Chinese and bilingual documents**
 
 [中文介绍](../README.md) · [Development notes](DEVELOPMENT.md)
 

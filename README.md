@@ -1,4 +1,4 @@
-# 单证工作台
+# Trade Document Workbench
 
 **一份订单，少填几遍。装箱对不上，先看清差在哪。**
 
@@ -6,13 +6,13 @@
 
 单证工作台把这些工作放在同一个本地页面里：订单资料填一处，切换查看五种单据；实际装箱单独记录，再与订单逐项核对。常用产品、客户和历史版本留在当前浏览器，下次接着用。
 
-**v2.0.0 · 本机浏览器运行 · 中文界面 · 中文 / 英文 / 双语单据**
+**v2.0.1 · 本机浏览器运行 · 中文界面 · 中文 / 英文 / 双语单据**
 
-[开始使用](#先完成一张订单) · [装箱核对](#尾箱混装别重复算一遍) · [运行与验证](docs/DEVELOPMENT.md) · [English](docs/README.en.md)
+[在线使用](https://lydiatools.github.io/trade-document-workbench/) · [下载离线版](https://github.com/LydiaTools/trade-document-workbench/releases/latest) · [开始使用](#先完成一张订单) · [装箱核对](#尾箱混装别重复算一遍) · [运行与验证](docs/DEVELOPMENT.md) · [English](docs/README.en.md)
 
 ## 先完成一张订单
 
-1. 打开 `dist/单证工作台.html`，填写卖方资料，选择或补充客户。
+1. 打开[在线工作台](https://lydiatools.github.io/trade-document-workbench/)，或下载离线 HTML，填写卖方资料，选择或补充客户。
 2. 从产品库添加产品，检查数量、单价和贸易条款。
 3. 切换报价单、形式发票、销售合同、商业发票和装箱单，查看同一份订单的数据。
 4. 填写装箱资料，完成出单检查，再导出单份 PDF，或把五份 PDF 打包为 ZIP。

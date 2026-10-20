@@ -1,19 +1,19 @@
 {
-  "version": "v2",
+  "version": "v2.0.1",
   "core_checks_passed": 10,
   "packing_checks_passed": 8,
-  "rebuild_matches_delivered_standalone": true,
+  "rebuild_matches_delivered_standalone": false,
   "sha256": {
-    "package.json": "f9a19f207e1f5ddb249e90e1caf6da67f799e4fb73927ede25837d5da4aa8fdf",
-    "README.md": "99205db8157684f7d8082f17a94240e78738389feaedb12c30b3d78758597384",
-    "dist/单证工作台.html": "d54b5a47b13ba378e0c8576b707ed30e8a7330cb5114a5a78f06c11cc7269bfd",
-    "scripts/build.cjs": "ecafad27d09b90753b4bb2aceeb567dcf3073325341b4dc458f897d7166a20b3",
+    "package.json": "9e8190efb1b32d05de0de7a7724aec478792d07babf1870395cb49faed59a520",
+    "README.md": "b1c0b73fc0c44f3281ee4e3b00a37b318302d08d600dc529f3f01965495db7e6",
+    "dist/单证工作台.html": "b73d32f228cb1cfb4e75ed83e7bc38cfac8f560cc8946bfc78ff028cf93da768",
+    "scripts/build.cjs": "bebaab8c0eda35669e743eac0b407918118ca627ee5f242e78785f670bd1f803",
     "src/app.js": "4454015d68811e8a767cf6e26e64ee23a104503cf786189bb6995b63ebc61697",
     "src/core.js": "fd581012bff6b61a4821d21c20d8c54786c990c72e834ec2efeba8ee629e1cec",
-    "src/index.html": "5934766d9fb8b29cb02fc2530a0495aa5d0447aedf4721cf682637113b9d5109",
+    "src/index.html": "c03c870d34c8951bc1c2be0f2cdc0ffd28b42741ed5dc524c7a697702e48a2cb",
     "src/packing-ui.js": "a5e4c05363a3361e6574761166bd79dc1e7a0ce287ba52c8933552e7bbc9872e",
     "src/packing.js": "b5ae88b4217adf5ae35904781f5c56e59aa2f9454d092636bc6f65083fa4cd85",
-    "src/styles.css": "a0dae7aae90257e8ff01a335d0deef1ac78baebc9249037731acf78094bccf28",
+    "src/styles.css": "90d27d9921d3467b96a90aaeabb96c7aac079ba1b774dca898c688b070cef25a",
     "tests/check-core.cjs": "b24f27628b81daaa2c7a4f00872c406741dfd7e705a9bfd35539d140cf2b163e",
     "tests/check-packing.cjs": "e4335064109b970ef91d248f96ef66e319bcd5e3f3ebb8710c6b31939835e026",
     "src/vendor/fflate.js": "462ef8041fc970e3615a20a9dd2b2e3047a073b2da729ef4f02b634bba8b7b83",
@@ -24,10 +24,16 @@
     "src/vendor/LICENSE-jspdf.txt": "dc388ec35ff463288cdde3588a36fd4ed12a45deff053243b37309acc9ef583b",
     ".gitignore": "d355f501733a6d643516647dcd71410ddf5bdb26c88b7ae2889e93bb18e131c8",
     "docs/DEVELOPMENT.md": "247fb941b40cf40b7bc6379b68c0766df4305f381f645d1ccaf27d9c648fb105",
-    "docs/README.en.md": "e62b7c53146677cd33dd4da67b4484cef2af1449b6911dedb2553cafaeb7be88",
-    "THIRD_PARTY_NOTICES.md": "ec93fe699742e8fbfaa6c4bb15b5920cf603f7445830b8dcc35c443cb9ff1dae"
+    "docs/README.en.md": "dbdcce709f1b050bffd9c0be12a821fa11219f15133989215547703066fe7256",
+    "THIRD_PARTY_NOTICES.md": "ec93fe699742e8fbfaa6c4bb15b5920cf603f7445830b8dcc35c443cb9ff1dae",
+    "src/assets/lydia-logo.png": "9fef556c719a441133a4aa460a2b29ff88c92ddfcfd58ecbb2588e9e1c791a98"
   },
-  "verified_on": "2026-10-20",
+  "verified_on": "2026-10-21",
   "runtime": "Node.js v22.23.0",
-  "verification_scope": "18 existing Node.js checks and byte-identical standalone rebuild; browser file/download/restore workflow not revalidated in this upload."
+  "verification_scope": "18 Node.js checks pass. Chrome live five-PDF ZIP exported and rendered; Safari offline page, backup download, order edits and reload persistence checked. Further browser workflows are being validated.",
+  "changes": [
+    "Lydia brand logo and favicon embedded in standalone HTML",
+    "Backup and help controls available in narrow layouts",
+    "Online and offline entry links added"
+  ]
 }
